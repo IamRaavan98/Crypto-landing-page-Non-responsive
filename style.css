@@ -1,0 +1,105 @@
+*{
+    margin-top: 60px;
+    outline: 0ch;
+}
+
+body{
+    background-color: #000000;
+    background-image: url(/assets/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+     background-size: contain;
+     height: 100vh;
+     
+}
+
+.list{
+       display: block;
+       position: relative;
+       bottom:425px;
+       left: 350px;
+       word-spacing: 50px;
+    }
+    .list-item{
+    font-size: 15px;
+    display: inline-block;   
+    color:#ffffff; 
+    font-family: 'Montserrat';
+
+
+}
+.navbar{
+          
+}
+.logo{
+    /* display: block; */
+    border: solid;
+    position: relative;
+    bottom: 170px;
+    width: 90px;
+    left: 220px;       
+}
+
+.button-small{    
+    position: relative;
+    bottom: 570px;
+    left: 1150px;
+    font-size: 15px;
+    padding: 8px  30px;
+    border-radius: 10px;
+    background-color: #ba0cc5;
+    color: #ffffff;
+}
+.hero{
+    position: relative;
+    color:#ffffff;
+    display: block;
+    text-align: center;
+    bottom: 350px;
+}
+
+.hero-heading{
+    position: relative;
+    color:#ffffff;
+    display: inline-block;
+    text-align: center;
+    font-size: 70px;
+    width: 850px;
+    bottom: 190px;
+    font-family:'Montserrat';
+    left:30px;
+}
+.hero-description{
+    position: relative;
+    color:#ffffff;
+    display: block;
+    /* text-align: center; */
+    /* border: solid; */
+    font-size: 25px;
+    bottom:195px;
+    font-family: 'Montserrat';
+}
+
+.button-large{
+    color:#ffffff;
+     position: absolute;
+     display: block;
+     bottom:80px;
+     background-color: #ba0cc5;
+     font-size: 30px;
+     padding: 10px 30px;
+    margin-left: 600px;
+    font-family: 'Poppins';
+    border-radius: 10px;  
+}
+.line{
+    border:solid #ffffff;
+    /* display: block; */
+    height: 40px;
+    width: 0px;
+    position: relative;
+    bottom: 270px;
+    left: 350px;
+
+}
+
